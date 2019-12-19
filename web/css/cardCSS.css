@@ -1,0 +1,162 @@
+h1 {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.card {
+    padding: 0;
+    width: 250px;
+    height: 350px;
+    margin: 1.25rem;
+    display: inline-table;
+}
+
+.cardTop {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    background: aquamarine;
+}
+
+.cardBottom {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: wheat;
+}
+
+#bg canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.cardFrame {
+    width: 80%;
+    margin-left: 10%;
+    overflow-x: fragments;
+
+}
+
+.headTitle {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    background: #eee;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.addCard {
+    padding: 0;
+    width: 250px;
+    height: 350px;
+    margin: 1.25rem;
+    display: inline-block;
+}
+
+
+.rightButton {
+    margin-top: 25px;
+    float: right;
+    background: none;
+}
+.leftButton {
+    margin-top: 25px;
+    float: left;
+    background: none;
+}
+.midButton{
+    margin-top: 25px;
+    margin-left: 55px;
+    float: left;
+    background: none;
+}
+
+.information {
+    margin: 0;
+    padding: 5px;
+}
+
+.popFrame {
+    width: 550px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 10%;
+    left: 32%;
+    border-radius: 20px;
+    display:none;
+}
+.form-style-agile {
+    margin-bottom: 5px;
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+}
+.form-style-agile input[type="text"]{
+    width: 100%;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #000;
+    background: #fff;
+}
+label {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+label i {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #f7296f;
+    border-radius: 50%;
+    line-height: 1.9;
+    text-align: center;
+}
+input[type="submit"],input[type="button"] {
+    color: #fff;
+    background: #f7296f;
+    border: none;
+    padding: 13px 0;
+    margin-top: 15px;
+    margin-left: 40px;
+    outline: none;
+    width: 36%;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.49);
+}
